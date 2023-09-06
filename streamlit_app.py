@@ -22,7 +22,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 
 
-/home/appuser/venv/bin/python -m pip install --upgrade pip
+# /home/appuser/venv/bin/python -m pip install --upgrade pip
 
 import snowflake.connector
 
