@@ -1,6 +1,6 @@
 import streamlit
 
-streamlit.title('My Parents New Healthy Diner')
+streamlit.title('My Mom's New Healthy Diner')
 
 streamlit.header('Breakfast Favorites')
 streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
@@ -20,6 +20,10 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 # display the table on the page
 streamlit.dataframe(fruits_to_show)
+
+import requests
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruityvice_response)
 
 
 # /home/appuser/venv/bin/python -m pip install --upgrade pip
