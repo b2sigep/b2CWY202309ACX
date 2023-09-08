@@ -2,7 +2,7 @@ import streamlit
 #Need this to run.
 
 #New improved title.
-streamlit.title('My Mom's New Healthy Diner')
+streamlit.title('My Mom's New Healthy Diner'')
 
 #comment for header and breakfast items
 streamlit.header('Breakfast Favorites')
