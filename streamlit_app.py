@@ -4,7 +4,7 @@ import streamlit
 #New improved title.
 streamlit.title('My Mom's New Healthy Diner')
 
-
+#comment for header and breakfast items
 streamlit.header('Breakfast Favorites')
 streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
 streamlit.text('🥗 Kale, Spinach & Rocket Smoothie')
